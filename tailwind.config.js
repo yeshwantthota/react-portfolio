@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      fasthand: ["Fasthand"],
+      signature: ["Fasthand"],
     },
   },
   plugins: [],
