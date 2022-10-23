@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+import { faBars, faTimes } from "react-icons/fa";
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold font-fasthand ">Yesh</h1>
+      <Navbar />
     </div>
   );
 }
