@@ -26,7 +26,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed ">
       <div>
         <h1 className="text-4xl font-signature ml-2">Yesh</h1>
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
             key={id}
             className="px-6 mx-3 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500} offset={200}>
               {link}
             </Link>
           </li>
@@ -62,6 +62,7 @@ const Navbar = () => {
                 to={link}
                 smooth
                 duration={500}
+                offset={200}
               >
                 {" "}
                 {link}
