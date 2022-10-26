@@ -6,5 +6,6 @@ module.exports = {
       signature: ["Fasthand"],
     },
   },
+
   plugins: [],
 };
